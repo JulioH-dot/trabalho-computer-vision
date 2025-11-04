@@ -1,3 +1,4 @@
+
 # modelo_cnn.py
 
 import tensorflow as tf
@@ -61,4 +62,5 @@ def inspecao_visual_cnn(image_path, model=CNN_MODEL):
         return True, f"Visual OK (Score: {prediction[0]:.2f})"
     else:
         # Assumindo que >= 0.5 significa "DEFEITO"
+
         return False, f"REPROVADO: Defeito Visual Detectado (Score: {prediction[0]:.2f})"

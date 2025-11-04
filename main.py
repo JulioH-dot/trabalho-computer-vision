@@ -1,3 +1,4 @@
+
 # main.py
 
 from inspecao_dimensional import inspecao_dimensional
@@ -62,4 +63,5 @@ if __name__ == "__main__":
     print("\n--------------------------------------------------")
     print("TESTE 3: FALHA DIMENSIONAL (Esperado: REPROVADO pelo OpenCV)")
     print("--------------------------------------------------")
+
     inspecao_final(CAMINHO_REPROVADO_DIMENSIONAL)

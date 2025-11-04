@@ -1,3 +1,4 @@
+
 # inspecao_dimensional.py
 
 import cv2

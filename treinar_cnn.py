@@ -1,3 +1,4 @@
+
 # treinar_cnn.py
 
 import tensorflow as tf
@@ -69,4 +70,5 @@ if __name__ == '__main__':
         print(f"Erro: O diretório do dataset '{DATASET_DIR}' não foi encontrado.")
         print("Crie a estrutura de pastas conforme o item 2 (Estrutura do Dataset).")
     else:
+
         treinar_modelo()
